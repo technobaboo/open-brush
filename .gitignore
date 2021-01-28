@@ -73,3 +73,6 @@
 
 # Google process
 .gitbugtraq
+
+# Cache files
+*.cache

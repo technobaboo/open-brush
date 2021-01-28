@@ -67,6 +67,8 @@ public class App : MonoBehaviour {
   public const string kGuiBuildExecutableName = "OpenSourceTiltBrush";
   // Windows Executable
   public const string kGuiBuildWindowsExecutableName = kGuiBuildExecutableName + ".exe";
+  // Linux Executable
+  public const string kGuiBuildLinuxExecutableName = kGuiBuildExecutableName;
   // OSX Executable
   public const string kGuiBuildOSXExecutableName = kGuiBuildExecutableName + ".app";
   // Android Executable
