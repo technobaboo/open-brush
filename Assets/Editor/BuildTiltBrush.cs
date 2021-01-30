@@ -316,9 +316,6 @@ static class BuildTiltBrush {
       case BuildTarget.StandaloneOSX:
         location += "/" + App.kGuiBuildOSXExecutableName;
         break;
-      case BuildTarget.StandaloneLinux64:
-        location += "/" + App.kGuiBuildLinuxExecutableName;
-        break;
       default:
         throw new BuildFailedException("Unsupported BuildTarget: " + buildTarget.ToString());
     }

@@ -71,8 +71,6 @@ public class App : MonoBehaviour {
   public const string kGuiBuildLinuxExecutableName = kGuiBuildExecutableName;
   // OSX Executable
   public const string kGuiBuildOSXExecutableName = kGuiBuildExecutableName + ".app";
-  // Linux Executable
-  public const string kGuiBuildLinuxExecutableName = kGuiBuildExecutableName;
   // Android Executable
   public const string kGuiBuildAndroidExecutableName =
       "com." + kVendorName + "." + kGuiBuildExecutableName + ".apk";
