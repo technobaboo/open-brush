@@ -71,6 +71,8 @@ public class App : MonoBehaviour {
   public const string kGuiBuildLinuxExecutableName = kGuiBuildExecutableName;
   // OSX Executable
   public const string kGuiBuildOSXExecutableName = kGuiBuildExecutableName + ".app";
+  // Linux Executable
+  public const string kGuiBuildLinuxExecutableName = kGuiBuildExecutableName;
   // Android Executable
   public const string kGuiBuildAndroidExecutableName =
       "com." + kVendorName + "." + kGuiBuildExecutableName + ".apk";
@@ -1627,6 +1629,7 @@ public class App : MonoBehaviour {
     case RuntimePlatform.OSXPlayer:
     case RuntimePlatform.OSXEditor:
     case RuntimePlatform.LinuxPlayer:
+    case RuntimePlatform.LinuxEditor:
       // user Documents folder
       m_UserPath = Path.Combine(System.Environment.GetFolderPath(
                               System.Environment.SpecialFolder.Personal),

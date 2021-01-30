@@ -99,9 +99,9 @@ public class DriveAccess {
       case RuntimePlatform.OSXEditor:
         Debug.LogError("Host id not implemented for macOS");
         return "macOS-unknown";
-	  case RuntimePlatform.LinuxPlayer:
-	  case RuntimePlatform.LinuxEditor:
-        Debug.LogError("Host id not implemented for Linux");
+      case RuntimePlatform.LinuxPlayer:
+      case RuntimePlatform.LinuxEditor:
+        Debug.LogError("Host id is not implemented for Linux");
         return "Linux-unknown";
       case RuntimePlatform.Android:
         return GetAndroidId();
